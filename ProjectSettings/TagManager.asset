@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lobby
+  - Battle
+  - Magicshop
+  - Statusshop
+  - Gamestart
+  - DropItem
+  - RewardChest
+  - Animal
+  - Gate
+  - Magicshopenter
+  - Statusshopexit
+  - Statusshopenter
+  - Magicshopexit
   layers:
   - Default
   - TransparentFX
@@ -11,6 +24,10 @@ TagManager:
   - 
   - Water
   - UI
+  - MonsterBullet
+  - Monster
+  - 
+  - Ground
   - 
   - 
   - 
@@ -29,15 +46,17 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - CameraBound
+  - HalfBlock
+  - Player
+  - PlayerProjectile
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 382552967
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3025492227
     locked: 0
